@@ -1,0 +1,14 @@
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.exe.config
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.exe
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.pdb
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.csprojAssemblyReference.cache
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.csproj.CoreCompileInputs.cache
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.exe
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.pdb
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.exe.config
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.exe
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.pdb
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.csprojAssemblyReference.cache
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.csproj.CoreCompileInputs.cache
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.exe
+C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.pdb
