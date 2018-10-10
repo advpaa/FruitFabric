@@ -27,10 +27,16 @@ namespace FruitsFabric
             //string massoffruits = AppleFruit.GetAppleJuice();
             JuiceFactory juiceFactory = new JuiceFactory(1.5, 1.3, 2.4); // создаем экземпляр фабрики
             int applePacksNumber = juiceFactory.GetAppleJuice(50).Count(); //передаем массу фруктов и подсчитываем количество пачек в коллекции
+            List <AppleJuiceWithName> applePacksWithName = juiceFactory.GetAppleJuice(50,"HappyApple");
             int orangePacksNumber = juiceFactory.GetOrangeJuice((decimal)70.4).Count(); // приведение типов
             int cherryPacksNumber = juiceFactory.GetCherryJuice((decimal)93.6).Count();
 
-            Console.WriteLine($"applePacksNumber and Name : {applePacksNumber}; orangePacksNumber : {orangePacksNumber}; cherryPacksNumber : {cherryPacksNumber}");
+            for (int i = 0; i < applePacksWithName.Count(); i++)
+            {
+                Console.WriteLine($"{applePacksWithName[i]._volume}, {applePacksWithName[i]._appleJuiceName}");
+            }
+
+            Console.WriteLine($"applePacksNumber and Name : {applePacksWithName}; orangePacksNumber : {orangePacksNumber}; cherryPacksNumber : {cherryPacksNumber}");
             Console.ReadLine();
         }
     }

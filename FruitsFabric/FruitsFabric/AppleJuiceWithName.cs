@@ -9,19 +9,8 @@ namespace FruitsFabric
     public class AppleJuiceWithName : AppleJuice
         
     {
-        public string _appleJuiceName;
-
-        public AppleJuicewithName();
-            {
-                Random random = new Random();
-                int volumeInMl = random.Next(900, 1000);
-                double volumeInL = (double)volumeInMl / 1000;
-
-                _volume = volumeInL;
-
-            }
+        public string _appleJuiceName;        
 
         }
     }
-}
-}
+
