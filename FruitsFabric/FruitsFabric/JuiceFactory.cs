@@ -36,17 +36,17 @@ namespace FruitsFabric
             return appleJuices; // возвращаем коллекцию пачек
         }
 
-        public List<AppleJuiceWithName> GetAppleJuice(decimal massOfFruits, string appleJuiceName) // перегруженный метод, который принимает массу фруктов и название, и возвращает коллекцию пачек
+        public List<AppleJuiceWithName> GetAppleJuice(decimal massOfFruits, string appleJuiceName) // перегруженный метод, который принимает массу фруктов и название, и возвращает коллекцию пачек сока с именем
         {
-            List<AppleJuiceWithName> appleJuiceswithName = new List<AppleJuiceWithName>(); // инициализация коллекции, мы говорим что коллекция с типом AppleJuice называется appleJuices
+            List<AppleJuiceWithName> appleJuiceswithName = new List<AppleJuiceWithName>(); // инициализация коллекции, мы говорим что коллекция с типом AppleJuiceWithName называется appleJuiceswithName
 
             int applePacksQty = (int)((double)massOfFruits / _applesForPress); // количество пачек которое получится из переданной массы фруктов
 
             for (int i = 1; i <= applePacksQty; i++) // цикл по наполнению пачки сока соком
             {
-                AppleJuiceWithName appleJuicePackWithName = new AppleJuiceWithName(); // переменная  appleJuicePack имеет тип AppleJuice и мы ее инициализируем
-                appleJuicePackWithName._appleJuiceName = appleJuiceName;
-                appleJuiceswithName.Add(appleJuicePackWithName);// добавить в коллекцию appleJuiceswithName переменную appleJuicePack
+                AppleJuiceWithName appleJuicePackWithName = new AppleJuiceWithName(); // переменная  appleJuicePackWithName имеет тип AppleJuiceWithName и мы ее инициализируем
+                appleJuicePackWithName._appleJuiceName = appleJuiceName;// инициализируем поле  из appleJuicePackWithName класса, иначе оно его не увидит
+                appleJuiceswithName.Add(appleJuicePackWithName);// добавить в коллекцию appleJuiceswithName переменную appleJuicePackWithName
             }
 
             return appleJuiceswithName; // возвращаем коллекцию пачек с именем

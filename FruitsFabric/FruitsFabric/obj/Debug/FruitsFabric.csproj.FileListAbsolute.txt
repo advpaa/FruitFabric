@@ -12,3 +12,10 @@ C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\F
 C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.csproj.CoreCompileInputs.cache
 C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.exe
 C:\Users\Natalie\source\repos\FruitsFabric\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.pdb
+D:\Work\FruitFabricNew\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.exe.config
+D:\Work\FruitFabricNew\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.exe
+D:\Work\FruitFabricNew\FruitsFabric\FruitsFabric\bin\Debug\FruitsFabric.pdb
+D:\Work\FruitFabricNew\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.csprojAssemblyReference.cache
+D:\Work\FruitFabricNew\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.csproj.CoreCompileInputs.cache
+D:\Work\FruitFabricNew\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.exe
+D:\Work\FruitFabricNew\FruitsFabric\FruitsFabric\obj\Debug\FruitsFabric.pdb

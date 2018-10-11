@@ -27,7 +27,7 @@ namespace FruitsFabric
             //string massoffruits = AppleFruit.GetAppleJuice();
             JuiceFactory juiceFactory = new JuiceFactory(1.5, 1.3, 2.4); // создаем экземпляр фабрики
             int applePacksNumber = juiceFactory.GetAppleJuice(50).Count(); //передаем массу фруктов и подсчитываем количество пачек в коллекции
-            List <AppleJuiceWithName> applePacksWithName = juiceFactory.GetAppleJuice(50,"HappyApple");
+            List <AppleJuiceWithName> applePacksWithName = juiceFactory.GetAppleJuice(50,"HappyApple");            
             int orangePacksNumber = juiceFactory.GetOrangeJuice((decimal)70.4).Count(); // приведение типов
             int cherryPacksNumber = juiceFactory.GetCherryJuice((decimal)93.6).Count();
 
