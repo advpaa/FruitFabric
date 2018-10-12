@@ -33,7 +33,7 @@ namespace FruitsFabric
 
             for (int i = 0; i < applePacksWithName.Count(); i++)
             {
-                Console.WriteLine($"{applePacksWithName[i]._volume}, {applePacksWithName[i]._appleJuiceName}");
+                Console.WriteLine($"{applePacksWithName[i]._volumeInL},{applePacksWithName[i]._appleJuiceName}");
             }
 
             Console.WriteLine($"applePacksNumber and Name : {applePacksWithName}; orangePacksNumber : {orangePacksNumber}; cherryPacksNumber : {cherryPacksNumber}");

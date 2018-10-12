@@ -10,10 +10,9 @@ namespace FruitsFabric
         // класс AppleJuiceWithName наследуется от AppleJuice.
 
     {
-
         public string _appleJuiceName;
         //объявляем в конструкторе поле, в котором будем хранить имя
-
+        public double _volumeInL;
     }
 }
 

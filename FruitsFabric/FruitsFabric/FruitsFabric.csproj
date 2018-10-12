@@ -45,6 +45,7 @@
     <Compile Include="AppleJuice.cs" />
     <Compile Include="CherryJuice.cs" />
     <Compile Include="AppleJuiceWithName.cs" />
+    <Compile Include="JuiceIntoPack.cs" />
     <Compile Include="JuiceFactory.cs" />
     <Compile Include="OrangeJuice.cs" />
     <Compile Include="Program.cs" />

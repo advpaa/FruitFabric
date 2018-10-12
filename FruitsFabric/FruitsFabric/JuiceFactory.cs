@@ -46,6 +46,7 @@ namespace FruitsFabric
             {
                 AppleJuiceWithName appleJuicePackWithName = new AppleJuiceWithName(); // переменная  appleJuicePackWithName имеет тип AppleJuiceWithName и мы ее инициализируем
                 appleJuicePackWithName._appleJuiceName = appleJuiceName;// инициализируем поле  из appleJuicePackWithName класса, иначе оно его не увидит
+                appleJuicePackWithName._volumeInL = JuiceIntoPack.JuiceIntoPacks();
                 appleJuiceswithName.Add(appleJuicePackWithName);// добавить в коллекцию appleJuiceswithName переменную appleJuicePackWithName
             }
 
